@@ -246,3 +246,27 @@ p{
   color: #f2f2f2;
   text-align: right;
 }
+
+@media screen and (max-width:1199px){
+.inner{
+  width: 97%;
+}
+}
+
+@media screen and (max-width:767px){
+.inner{
+  width: 97%;
+}
+.contact-box{
+
+  transition: 0.3s;
+  background: #74cfae;
+  color: #FFFFFF;
+  cursor: pointer;
+  position: relative;
+  font-size: 12px;
+  padding: 14px 12px;
+}
+
+}
+  
