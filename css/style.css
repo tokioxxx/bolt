@@ -17,6 +17,7 @@ body{
   width: 100%;
   position: fixed;
   background-color:#FFFFFF;
+  z-index: 1;
 }
 
 .fa-bolt{
@@ -25,11 +26,13 @@ body{
 
 .header-inner{
   padding: 15px 0 ;
+  margin: 0 auto;
 }
 
 .header-img{
   color: #4e4e4e;
   float: left;
+  margin-left:100px;
 }
 
 .contact-box{
@@ -39,12 +42,18 @@ body{
   float:right;
   font-size: 12px;
   padding: 14px 12px;
-  text-decoration: none 
+  text-decoration: none ;
+  margin-right: 50px;
 }
 
 .contact-box:hover{
   color:#333;
   transition: all  0.3s;
+}
+
+.title-inner{
+  margin: 0 auto;
+  text-align: center;
 }
 
 .main{
@@ -57,8 +66,6 @@ body{
 }
 
 .inner{
-  margin: 0 auto;
-  text-align: center;
   width: 1100px;
 }
 
@@ -89,6 +96,8 @@ body{
 .what-inner{
   padding-top: 50px;
   overflow: hidden;
+  margin:0 auto;
+  text-align: center;
 }
 
 .what-h2{
@@ -110,6 +119,8 @@ body{
 
 .our-latest-work-inner{
   padding: 60px 0 70px 0;
+  margin:0 auto;
+  text-align: center;
 }
 
 .our-latest-work{
@@ -136,6 +147,7 @@ body{
 .our-latest-img{
   font-size: 0;
 }
+
 .our-latest-img >li{
   display: inline-block;
   margin:0 100px 80px 0;
@@ -194,6 +206,8 @@ body{
 
 .our-skills-inner{
   padding: 70px 0 100px 0;
+  margin:0 auto;
+  text-align: center;
 }
 
 .skills-circle{
@@ -218,6 +232,8 @@ body{
 
 .sns-icon-inner{
   padding: 200px 0 ;
+  margin:0 auto;
+  text-align: center;
 }
 
 .skills-name{
@@ -250,24 +266,24 @@ body{
 
 .footer-inner{
  padding:20px 0 25px 0;
+ margin:0 auto;
 }
 
 .footer-inner p{
   color: #f2f2f2;
   text-align: right;
 }
+
 /* 
 @media screen and (max-width:1199px){
 .inner{
   width: 97%;
 }
 
-
-}
-
 @media screen and (max-width:767px){
 .inner{
   width: 97%;
-} */
+}
 
+} */
   
