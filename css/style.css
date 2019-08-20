@@ -19,29 +19,24 @@ body{
 
 .header-inner{
   padding: 15px 0 ;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .header-img{
   color: #4e4e4e;
-  position: relative;
-  right:40%;
+  float: left;
 }
 
 .contact-box{
   transition: 0.3s;
   background: #74cfae;
   color: #FFFFFF;
-  cursor: pointer;
-  position: absolute;
-  left:75%;
+  float:right;
   font-size: 12px;
   padding: 14px 12px;
   text-decoration: none 
 }
 
-a:hover{
+.contact-box:hover{
   color:#333;
   transition: all  0.3s;
 }
@@ -61,9 +56,6 @@ a:hover{
   width: 1100px;
 }
 
-.title-inner{
-  padding: 250px 0;
-}
 
 .title-inner > h1{
   color: #74cfae;
@@ -75,11 +67,12 @@ a:hover{
 .title-inner {
   color:#c0c0c0;
   font-size: 30px;
+  padding: 250px 0;
 }
 
 .iphone-img{
   float: left; 
-  margin-left: 50px;
+  width: 450px;
 }
 
 .what{
@@ -131,9 +124,12 @@ a:hover{
 }
 
 .article-img-img{
- width: 290px;
+ width: 300px;
 }
 
+.our-latest-img{
+  font-size: 0;
+}
 .our-latest-img >li{
   display: inline-block;
   margin:0 100px 80px 0;
@@ -155,13 +151,13 @@ a:hover{
   background: #74cfae;
   display: inline-block;
   color: #FFFFFF;
-  cursor: pointer;
   margin-left: 90px;
   vertical-align: top;
   transition: 0.3s;
   font-size: 12px;
   padding: 14px 20px;
   text-align: center;
+  text-decoration: none;
 }
 
 .email-box:hover{
@@ -199,16 +195,11 @@ a:hover{
   margin: 0 0 0 180px;
 }
 
-.circle{
-  width: 100px;
-}
-
-.skills-circle:first-of-type{
+.skills-circle:first-child{
   margin-left:0;
 }
 
-.skills-circle
-p{
+.skills-name{
   color:#f2f2f2;
   font-size: 16px;
 }
@@ -228,9 +219,7 @@ p{
 }
 
 .sns-icon-nav{
-  cursor: pointer;
   display: inline-block;
-  margin-left: 50px;
   padding: 35px 0;
   width: 185px;
   color: #74cfae;
@@ -261,26 +250,18 @@ p{
   color: #f2f2f2;
   text-align: right;
 }
-
+/* 
 @media screen and (max-width:1199px){
 .inner{
   width: 97%;
 }
+
+
 }
 
 @media screen and (max-width:767px){
 .inner{
   width: 97%;
-}
+} */
 
-.contact-box{
-  transition: 0.3s;
-  background: #74cfae;
-  color: #FFFFFF;
-  cursor: pointer;
-  position: relative;
-  font-size: 12px;
-  padding: 14px 12px;
-}
-}
   
