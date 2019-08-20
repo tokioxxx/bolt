@@ -26,7 +26,6 @@ body{
 
 .header-inner{
   padding: 15px 0 ;
-  margin: 0 auto;
 }
 
 .header-img{
@@ -49,8 +48,6 @@ body{
   transition: all  0.3s;
 }
 
-
-
 .main{
   padding-top: 78px;
 }
@@ -62,6 +59,7 @@ body{
 
 .inner{
   width: 1100px;
+  margin: 0 auto;
 }
 
 
@@ -72,14 +70,15 @@ body{
   margin-bottom: 20px;
   text-align: center;
 }
+
 .title-p{
   text-align: center;
 }
+
 .title-inner {
   color:#c0c0c0;
   font-size: 30px;
   padding: 250px 0;
-  margin: 0 auto;
 }
 
 .iphone-img{
@@ -96,7 +95,6 @@ body{
 .what-inner{
   padding-top: 50px;
   overflow: hidden;
-  margin:0 auto;
 }
 
 .what-h2{
@@ -120,7 +118,6 @@ body{
 
 .our-latest-work-inner{
   padding: 60px 0 70px 0;
-  margin:0 auto;
 }
 
 .our-latest-work{
@@ -209,7 +206,6 @@ body{
 
 .our-skills-inner{
   padding: 70px 0 100px 0;
-  margin:0 auto;  
 }
 
 .skills{
@@ -239,7 +235,6 @@ body{
 
 .sns-icon-inner{
   padding: 200px 0 ;
-  margin:0 auto;
   text-align: center;
 }
 
@@ -269,7 +264,6 @@ body{
 
 .footer-inner{
  padding:20px 0 25px 0;
- margin:0 auto;
 }
 
 .footer-inner p{
