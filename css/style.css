@@ -49,10 +49,7 @@ body{
   transition: all  0.3s;
 }
 
-.title-inner{
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .main{
   padding-top: 78px;
@@ -68,22 +65,27 @@ body{
 }
 
 
-.title-inner > h1{
+.title-h1{
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: center;
 }
-
+.title-p{
+  text-align: center;
+}
 .title-inner {
   color:#c0c0c0;
   font-size: 30px;
   padding: 250px 0;
+  margin: 0 auto;
 }
 
 .iphone-img{
   float: left; 
   width: 450px;
+  text-align: center;
 }
 
 .what{
@@ -95,19 +97,20 @@ body{
   padding-top: 50px;
   overflow: hidden;
   margin:0 auto;
-  text-align: center;
 }
 
 .what-h2{
   color: #f2f2f2;
   font-size: 24px;
   margin-bottom:35px; 
+  text-align: center;
 }
 
 .what-p{
   color: #f2f2f2;
   font-size: 20px;
   line-height: 23px;
+  text-align: center;
 }
 
 .what-text{
@@ -118,7 +121,6 @@ body{
 .our-latest-work-inner{
   padding: 60px 0 70px 0;
   margin:0 auto;
-  text-align: center;
 }
 
 .our-latest-work{
@@ -130,6 +132,7 @@ body{
   color:#333;
   font-size: 24px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .article-img{
@@ -172,8 +175,8 @@ body{
   transition: 0.3s;
   font-size: 12px;
   padding: 14px 20px;
-  text-align: center;
   text-decoration: none;
+
 }
 
 .email-box:hover{
@@ -183,6 +186,7 @@ body{
 
 .article-bottom{
   margin-top:70px;
+  text-align: center;
 }
 
 .article-bottom-text{
@@ -200,11 +204,15 @@ body{
   color: #f2f2f2;
   margin-bottom: 70px;
   font-size: 24px;
+  text-align: center;
 }
 
 .our-skills-inner{
   padding: 70px 0 100px 0;
-  margin:0 auto;
+  margin:0 auto;  
+}
+
+.skills{
   text-align: center;
 }
 
@@ -220,6 +228,7 @@ body{
 .skills-name{
   color:#f2f2f2;
   font-size: 16px;
+  margin-top:15px;
 }
 
 .sns-icon{
@@ -232,10 +241,6 @@ body{
   padding: 200px 0 ;
   margin:0 auto;
   text-align: center;
-}
-
-.skills-name{
-  margin-top:15px;
 }
 
 .sns-icon-nav{
