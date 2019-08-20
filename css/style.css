@@ -32,7 +32,6 @@ body{
 .header-img{
   color: #4e4e4e;
   float: left;
-  margin-left:100px;
 }
 
 .contact-box{
@@ -43,7 +42,6 @@ body{
   font-size: 12px;
   padding: 14px 12px;
   text-decoration: none ;
-  margin-right: 50px;
 }
 
 .contact-box:hover{
