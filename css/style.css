@@ -3,6 +3,12 @@ body{
  font-family:'Lato';
 }
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .is-Raleway{
   font-family:'Raleway';
 }
