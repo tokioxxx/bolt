@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="keywords" content="bolt, bootstrap, portfolio">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <title>Bolt - Free Bootstrap 3 Theme</title>
   </head>
   <body>
     <header class="header">
       <div class="inner header-inner">
-        <i class="fas fa-bolt"></i>
-        <a class="contact-box">Contact</a>
+        <i class="header-img fas fa-bolt"></i>
+        <a class="contact-box" href="">Contact</a>
       </div>
     </header>
-    <main>
+    <main class=main>
       <div class="title">
         <div class="inner title-inner">
           <h1>Bolt Theme</h1>
@@ -29,46 +28,50 @@
       </div>
       <section class="what">
         <div class="inner what-inner">
-          <img class="iphone-img" src="img/iphone.png"alt="iphoneの画像">
-            <h2 class="is-Raleway">WHAT WE CAN DO?</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the<br> 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+          <div class="iphone-img">
+            <img src="img/iphone.png"alt="iphoneの画像">
+          </div>
+          <div class="what-text">
+            <h2 class="is-Raleway what-h2">WHAT WE CAN DO?</h2>
+            <p class="what-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
         </div>
       </section>
       <article class="our-latest-work">
         <div class="inner our-latest-work-inner">
-            <h2 class="is-Raleway">OUR LATEST WORK</h2>
-            <ul>
-              <li>
-                <a class="article-img"href="">
-                  <img  src="img/01.jpg" alt="記事の画像">
-                </a>
-              </li>
-              <li>
-                <a class="article-img" href="">
-                  <img src="img/02.jpg" alt="記事の画像">
-                </a>
-              </li>
-              <li>
-                <a class="article-img" href="">
-                  <img src="img/03.jpg" alt="記事の画像">
-                </a>
-              </li>
-              <li>
-                <a class="article-img" href="">
-                  <img src="img/04.jpg" alt="記事の画像">
-                </a>
-              </li>
-              <li>
-                <a class="article-img"href="">
-                  <img src="img/05.jpg" alt="記事の画像">
-                </a>
-              </li>
-              <li>
-                <a class="article-img" href="">
-                  <img src="img/06.jpg" alt="記事の画像">
-                </a>
-              </li>
-            </ul> 
+          <h2 class="is-Raleway our-latest-h2">OUR LATEST WORK</h2>
+          <ul class="our-latest-img">
+            <li>
+              <a class="article-img"href="">
+                <img class="article-img-img" src="img/01.jpg" alt="記事の画像">
+              </a>
+            </li>
+            <li>
+              <a class="article-img" href="">
+                <img class="article-img-img" src="img/02.jpg" alt="記事の画像">
+              </a>
+            </li>
+            <li>
+              <a class="article-img" href="">
+                <img class="article-img-img" src="img/03.jpg" alt="記事の画像">
+              </a>
+            </li>
+            <li>
+              <a class="article-img" href="">
+                <img class="article-img-img" src="img/04.jpg" alt="記事の画像">
+              </a>
+            </li>
+            <li>
+              <a class="article-img"href="">
+                <img class="article-img-img" src="img/05.jpg" alt="記事の画像">
+              </a>
+            </li>
+            <li>
+              <a class="article-img" href="">
+                <img class="article-img-img" src="img/06.jpg" alt="記事の画像">
+              </a>
+            </li>
+          </ul> 
           <div class="article-bottom">
             <p class="article-bottom-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
             <a class="email-box">Email Me!</a>      
@@ -77,31 +80,33 @@
       </article>
       <section class="our-skills">
         <div class="inner our-skills-inner">
-          <h2 class="is-Raleway">OUR SKILLS</h2>
+          <h2 class="is-Raleway our-skills-h2">OUR SKILLS</h2>
           <div class="skills">
-            <img class="circle" src="img/circle_01.png" alt="サークルの画像">
-            <p class="skills-name">JavaScript</p>
-          </div>
-          <div class="skills">
-            <img class="circle" src="img/circle_02.png" alt="サークルの画像">
-            <p class="skills-name">Bootstrap</p>
-          </div>
-          <div class="skills">
-            <img class="circle" src="img/circle_03.png" alt="サークルの画像">
-            <p class="skills-name">WordPress</p>
-          </div>
-          <div class="skills">
-            <img class="circle" src="img/circle_04.png" alt="サークルの画像">
-            <p class="skills-name">Photoshop</p>
+            <div class="skills-circle">
+              <img class="circle" src="img/circle_01.png" alt="サークルの画像">
+              <p class="skills-name">JavaScript</p>
+            </div>
+            <div class="skills-circle">
+              <img class="circle" src="img/circle_02.png" alt="サークルの画像">
+              <p class="skills-name">Bootstrap</p>
+            </div>
+            <div class="skills-circle">
+              <img class="circle" src="img/circle_03.png" alt="サークルの画像">
+              <p class="skills-name">WordPress</p>
+            </div>
+            <div class="skills-circle">
+              <img class="circle" src="img/circle_04.png" alt="サークルの画像">
+              <p class="skills-name">Photoshop</p>
+            </div>
           </div>
         </div>
       </section>
-      <nav class="sns-icon">
+      <nav class="sns-icon" >
         <div class="inner sns-icon-inner">
-          <a class="fab fa-facebook-f"></a>
-          <a class="fab fa-dribbble"></a>
-          <a class="fab fa-twitter"></a>
-          <a class="fab fas fa-envelope"></a>
+          <a class="sns-icon-nav fab fa-facebook-f" href=""></a>
+          <a class="sns-icon-nav fab fa-dribbble" href=""></a>
+          <a class="sns-icon-nav fab fa-twitter" href=""></a>
+          <a class="sns-icon-nav fab far fa-envelope" href=""></a>
         </div>
       </nav>
     </main>

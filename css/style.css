@@ -19,11 +19,14 @@ body{
 
 .header-inner{
   padding: 15px 0 ;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.header-inner > i{
+.header-img{
   color: #4e4e4e;
-  margin-right: 700px; 
+  position: relative;
+  right:400px;
 }
 
 .contact-box{
@@ -31,15 +34,20 @@ body{
   background: #74cfae;
   color: #FFFFFF;
   cursor: pointer;
-  float: right;
-  margin-right: 170px;
+  position: absolute;
+  left:75%;
   font-size: 12px;
   padding: 14px 12px;
+  text-decoration: none 
 }
 
 a:hover{
   color:#333;
   transition: all  0.3s;
+}
+
+.main{
+  padding-top: 78px;
 }
 
 .title{
@@ -50,7 +58,7 @@ a:hover{
 .inner{
   margin: 0 auto;
   text-align: center;
-  width: 1200px;
+  width: 1100px;
 }
 
 .title-inner{
@@ -70,10 +78,8 @@ a:hover{
 }
 
 .iphone-img{
-  float: left;
-  margin-left:200px;
-  height:265px;
-  width: 180px;
+  float: left; 
+  margin-left: 50px;
 }
 
 .what{
@@ -82,25 +88,26 @@ a:hover{
 }
 
 .what-inner{
-  padding: 50px 0 110px 0;
+  padding-top: 50px;
+  overflow: hidden;
 }
 
-.what-inner > h2{
+.what-h2{
   color: #f2f2f2;
   font-size: 24px;
   margin-bottom:35px; 
 }
 
-.what-inner > p{
+.what-p{
   color: #f2f2f2;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 23px;
 }
 
-.what-inner >h2,
-.what-inner >p{
-  margin-left:500px;
-} 
+.what-text{
+  float: right;
+  width: 650px;
+}
 
 .our-latest-work-inner{
   padding: 60px 0 70px 0;
@@ -111,7 +118,7 @@ a:hover{
   width: 100%;
 }
 
-.our-latest-work-inner h2{
+.our-latest-h2{
   color:#333;
   font-size: 24px;
   margin-bottom: 40px;
@@ -119,18 +126,25 @@ a:hover{
 
 .article-img{
   cursor: pointer;
-  height: 280px;
   opacity: 0.7;
-  width: 280px;
+  transition: 0.3s;
 }
 
-li{
- margin:0 100px 80px 0;
- display: inline-block;
+.article-img-img{
+ width: 290px;
 }
 
-li:nth-child(3n){
+.our-latest-img >li{
+  display: inline-block;
+  margin:0 100px 80px 0;
+}
+
+.our-latest-img >li:nth-child(3n){
   margin-right: 0;
+}
+
+.our-latest-img >li:nth-last-child(-n+3){
+  margin-bottom: 0;
 }
 
 .article-img:hover{
@@ -156,7 +170,7 @@ li:nth-child(3n){
 }
 
 .article-bottom{
-  margin:10px  110px 0 0;
+  margin-top:70px;
 }
 
 .article-bottom-text{
@@ -170,31 +184,30 @@ li:nth-child(3n){
   width: 100%;
 }
 
-.our-skills-inner h2{
+.our-skills-h2{
   color: #f2f2f2;
   margin-bottom: 70px;
   font-size: 24px;
 }
+
 .our-skills-inner{
   padding: 70px 0 100px 0;
 }
 
-.skills{
+.skills-circle{
   display: inline-block;
   margin: 0 0 0 180px;
 }
 
 .circle{
-  height: 100px;
   width: 100px;
 }
 
-.our-skills-inner >
-div:first-of-type{
+.skills-circle:first-of-type{
   margin-left:0;
 }
 
-.skills 
+.skills-circle
 p{
   color:#f2f2f2;
   font-size: 16px;
@@ -214,18 +227,20 @@ p{
   margin-top:15px;
 }
 
-.fab{
+.sns-icon-nav{
   cursor: pointer;
   display: inline-block;
   margin-left: 50px;
   padding: 35px 0;
   width: 185px;
+  color: #74cfae;
   font-size: 3em ;
   transition: 0.3s;
+  text-decoration: none;
 }
 
-.fab:hover{
-  background-color:#FFFFFF;
+.sns-icon-nav:hover{
+  background-color:rgb(218, 172, 172);
   transition: 0.3s;
 }
 
@@ -257,8 +272,8 @@ p{
 .inner{
   width: 97%;
 }
-.contact-box{
 
+.contact-box{
   transition: 0.3s;
   background: #74cfae;
   color: #FFFFFF;
@@ -267,6 +282,5 @@ p{
   font-size: 12px;
   padding: 14px 12px;
 }
-
 }
   
