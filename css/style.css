@@ -254,7 +254,6 @@ body{
 
 .sns-icon-nav:hover{
   background-color:#FFFFFF;
-  transition: 0.3s;
 }
 
 .footer{
@@ -397,7 +396,6 @@ body{
 
   .what-text{
     width: 100%;
-    float: none;
     margin: 0 auto;
   }
 
@@ -411,7 +409,6 @@ body{
 
   .iphone-img{
     width: 100%;
-    float: none;
     margin: 0 auto 20px auto;
     text-align: center;
   }
@@ -423,8 +420,6 @@ body{
   }
 
   .article-bottom-text{
-    display: block;
-    margin: 0 auto;
     width: 100%;
     line-height: 30px;
   }
